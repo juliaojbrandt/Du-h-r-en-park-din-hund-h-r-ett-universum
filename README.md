@@ -14,7 +14,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-image: url('hundbild.png'); /* byt till din bild */
+      background-image: url('Du hör en park din hund hör ett universum_Julia Öjbrandt.png'); /* byt till din bild */
       background-size: cover;
       background-position: center;
       position: relative;
@@ -48,7 +48,7 @@
 <body>
   <h1>Du hör en park – din hund hör ett universum</h1>
   <audio controls>
-    <source src="ljudfil.mp3" type="audio/mpeg">
+    <source src="MITM - ljud park_test 1.mp3" type="audio/mpeg">
     Din webbläsare stödjer inte ljuduppspelning.
   </audio>
 </body>
