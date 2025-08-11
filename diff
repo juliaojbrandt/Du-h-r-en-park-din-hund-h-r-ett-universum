@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<title>Du hör en park – din hund hör ett universum</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    background: url('hundbild.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  .logo {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  audio {
+    width: 80%;
+    max-width: 400px;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Logotypen ovanpå bakgrunden -->
+  <img src="logo.png" alt="Malmö in the making" class="logo">
+
+  <!-- Ljudspelare -->
+  <audio controls>
+    <source src="ljudfil.mp3" type="audio/mpeg">
+    Din webbläsare stödjer inte ljuduppspelning.
+  </audio>
+
+</body>
+</html>
